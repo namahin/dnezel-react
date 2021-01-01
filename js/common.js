@@ -86,7 +86,7 @@ $(document).ready(function () {
             sliderWork = work.find('.js-work-slider');
 
         sliderWork.slick({
-            slidesToShow: 4,
+            slidesToShow: 3,
             slidesToScroll: 1,
             dots: false,
             arrows: true,

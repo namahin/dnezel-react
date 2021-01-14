@@ -7523,47 +7523,27 @@ select {
   border-radius: 24px;
 }
 
-.work-slide-item.one,
-.work-slide-item:hover .slide-design.one {
+.work-slide-item.one{
   background: #FFEDDC;
-  /* transition: linear .1s; */
 }
 
-.work-slide-item.one:hover {
-  background: #FAB8C4;
-  /* transition: linear .1s; */
-}
 
-.work-slide-item.two,
-.work-slide-item:hover .slide-design.two {
+.work-slide-item.two{
   background: #DBDEFF;
-  /* transition: linear .1s; */
 }
 
-.work-slide-item.two:hover {
-  background: #5956E9;
-  /* transition: linear .1s; */
-}
 
-.work-slide-item.three,
-.work-slide-item:hover .slide-design.three {
+.work-slide-item.three {
   background: #DBF8FF;
-  /* transition: linear .1s; */
 }
 
-.work-slide-item.three:hover {
-  background: #0081fa;
-  /* transition: linear .1s; */
-}
-
-.work-slide-item.four {
-  background: #FFEDDC;
+.work-slide-item {
   position: relative;
   top: 0;
   transition: linear .3s;
 }
 
-.work-slide-item.four:hover {
+.work-slide-item:hover {
   box-shadow: 0 0 30px 0px #0000000c;
   top: -15px;
   transition: linear .3s;
@@ -7659,6 +7639,12 @@ select {
 .work-slide-content p {
   color: #999FAE;
   font-family: 'Poppins', sans-serif;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: normal;
+  -webkit-line-clamp: 3;
 }
 
 .work-slide-content a {

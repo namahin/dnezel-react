@@ -7523,12 +7523,12 @@ select {
   border-radius: 24px;
 }
 
-.work-slide-item.one{
+.work-slide-item.one {
   background: #FFEDDC;
 }
 
 
-.work-slide-item.two{
+.work-slide-item.two {
   background: #DBDEFF;
 }
 
@@ -7696,3 +7696,26 @@ select {
   transition: linear .2s;
   stroke: #5956E9;
 }
+
+.testimonial {}
+
+.testimonial-header {}
+
+.testimonial-header h2 {}
+
+.testimonial-header p {}
+
+.testimonial-box {}
+
+.testimonial-box img {}
+
+.testimonial-box .text {}
+
+.testimonial-box .text h3 {}
+
+.testimonial-box .text h5 {}
+
+.testimonial-box .text p {}
+
+.testimonial-box .text p i {}
+.testimonial-box .text article{}
